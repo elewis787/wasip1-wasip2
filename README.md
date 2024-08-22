@@ -18,9 +18,9 @@ This produces and runs a core wasm module that uses the generated bindings for w
 
 A sample runtime is provided to execution the exported function. 
 
-This is manually be executed by running `go run ./cmd/wasmtime/main.go` 
+This can manually be executed by running `go run ./cmd/wasmtime/main.go` 
 
-The golang bindings of wasmtime ( wasmtime-go) do not support waspi2 components. 
+The golang bindings of wasmtime ( wasmtime-go) do not support wasip2 components. 
 
 ### Observations 
 
