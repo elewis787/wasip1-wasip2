@@ -2,7 +2,7 @@
 
 default: gen-go-wasip1
 
-gen-go-wasip1: ; wit-bindgen-go generate --target wasip1 --world foo --out ./gen/go/wasip1 ./wit
+gen-go-wasip1: ; wit-bindgen-go generate --world foo --out ./gen/go/wasip1 ./wit
 
 gen-go-wasip2: ; wit-bindgen-go generate --world foo --out ./gen/go/wasip2 ./wit
 
